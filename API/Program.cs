@@ -1,3 +1,7 @@
+
+using Application.Activities;
+using Application.Core;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
@@ -13,6 +17,8 @@ builder.Services.AddDbContext<ReactContext>(opt =>
     opt.UseSqlite("Data Source=reactivities.db");
     //opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 });
+builder.Services.AddMediatR(typeof(List.Handler).Assembly);
+builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
 
 var app = builder.Build();
 
@@ -40,6 +46,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(policy => policy.AllowAnyHeader()
+    .AllowAnyMethod().AllowAnyOrigin());
 
 app.UseHttpsRedirection();
 
