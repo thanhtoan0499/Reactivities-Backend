@@ -7,14 +7,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Application.Core;
 
 namespace Application.Activities
 {
     public class List
     {
-        public class Query : IRequest<List<Activity>> { }
+        public class Query : IRequest<Result<List<Activity>>> { }
 
-        public class Handler : IRequestHandler<Query, List<Activity>> 
+        public class Handler : IRequestHandler<Query, Result<List<Activity>>> 
         {
             private readonly ReactContext reactContext;
 
@@ -23,9 +24,10 @@ namespace Application.Activities
                 this.reactContext = reactContext;
             }
 
-            public async Task<List<Activity>> Handle(Query request, CancellationToken cancellationToken)
+            public async Task<Result<List<Activity>>> Handle(Query request, CancellationToken cancellationToken)
             {
-                return await reactContext.Activities.ToListAsync();
+                var activity = await reactContext.Activities.ToListAsync(cancellationToken);
+                return Result<List<Activity>>.Success(activity);
             }
         }
     }

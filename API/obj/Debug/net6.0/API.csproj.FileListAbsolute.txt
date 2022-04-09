@@ -295,3 +295,6 @@ C:\Users\thanh\source\repos\Reactivities\API\bin\Debug\net6.0\MediatR.Contracts.
 C:\Users\thanh\source\repos\Reactivities\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\thanh\source\repos\Reactivities\API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\thanh\source\repos\Reactivities\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\thanh\source\repos\Reactivities\API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\thanh\source\repos\Reactivities\API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\thanh\source\repos\Reactivities\API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
