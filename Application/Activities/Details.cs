@@ -30,7 +30,7 @@ namespace Application.Activities
             public async Task<Result<Activity>> Handle(Query request, CancellationToken cancellationToken)
             {
                 var activity = await reactContext.Activities.FindAsync(request.Id);
-               // if (activity is null) throw new Exception("Khong tim thay activity");
+                //if (activity is null) throw new Exception("Khong tim thay activity");
                 return Result<Activity>.Success(activity);
             }
         }
