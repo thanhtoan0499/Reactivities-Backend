@@ -1,36 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/Users/toan/Documents/GitHub/Reactivities-Backend/Application/Application.csproj": {}
+    "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Application\\Application.csproj": {}
   },
   "projects": {
-    "/Users/toan/Documents/GitHub/Reactivities-Backend/Application/Application.csproj": {
+    "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/toan/Documents/GitHub/Reactivities-Backend/Application/Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/toan/Documents/GitHub/Reactivities-Backend/Application/Application.csproj",
-        "packagesPath": "/Users/toan/.nuget/packages/",
-        "outputPath": "/Users/toan/Documents/GitHub/Reactivities-Backend/Application/obj/",
+        "projectPath": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/toan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/toan/Documents/GitHub/Reactivities-Backend/Domain/Domain.csproj": {
-                "projectPath": "/Users/toan/Documents/GitHub/Reactivities-Backend/Domain/Domain.csproj"
+              "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Domain\\Domain.csproj"
               },
-              "/Users/toan/Documents/GitHub/Reactivities-Backend/Persistence/Persistence.csproj": {
-                "projectPath": "/Users/toan/Documents/GitHub/Reactivities-Backend/Persistence/Persistence.csproj"
+              "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -68,38 +70,38 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/toan/Documents/GitHub/Reactivities-Backend/Domain/Domain.csproj": {
+    "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/toan/Documents/GitHub/Reactivities-Backend/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/toan/Documents/GitHub/Reactivities-Backend/Domain/Domain.csproj",
-        "packagesPath": "/Users/toan/.nuget/packages/",
-        "outputPath": "/Users/toan/Documents/GitHub/Reactivities-Backend/Domain/obj/",
+        "projectPath": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/toan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,7 +125,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -132,34 +135,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/toan/Documents/GitHub/Reactivities-Backend/Persistence/Persistence.csproj": {
+    "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/toan/Documents/GitHub/Reactivities-Backend/Persistence/Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/Users/toan/Documents/GitHub/Reactivities-Backend/Persistence/Persistence.csproj",
-        "packagesPath": "/Users/toan/.nuget/packages/",
-        "outputPath": "/Users/toan/Documents/GitHub/Reactivities-Backend/Persistence/obj/",
+        "projectPath": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/toan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/toan/Documents/GitHub/Reactivities-Backend/Domain/Domain.csproj": {
-                "projectPath": "/Users/toan/Documents/GitHub/Reactivities-Backend/Domain/Domain.csproj"
+              "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Reactivities-Backend\\Domain\\Domain.csproj"
               }
             }
           }
@@ -207,7 +212,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -216,7 +222,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
