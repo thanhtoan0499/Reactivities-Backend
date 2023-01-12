@@ -30,10 +30,8 @@ using (var scope = app.Services.CreateScope())
     {
         var logger = services.GetRequiredService<ILogger<Program>>();
         logger.LogError(ex, "An error occured during migration");
-
     }
 }
-
 
 // Configure the HTTP request pipeline.
 app.UseMiddleware<ExceptionMiddleware>();

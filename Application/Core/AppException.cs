@@ -1,6 +1,4 @@
-﻿using Application.Activities;
-using Microsoft.AspNetCore.Http;
-
+﻿
 namespace Application.Core;
 
 public class AppException

@@ -1,6 +1,7 @@
 ﻿using Application.Core;
 using AutoMapper;
 using Domain;
+using FluentValidation;
 using MediatR;
 using Persistence;
 
@@ -12,7 +13,13 @@ namespace Application.Activities
         {
             public Activity Activity { get; set; }
         }
-
+        public class CommandValidator : AbstractValidator<Create.Command>
+        {
+            public CommandValidator()
+            {
+                RuleFor(x => x.Activity).SetValidator(new ActivityValidator());
+            }
+        }
         public class Hander : IRequestHandler<Command, Result<Unit>>
         {
             private readonly ReactContext reactContext;
