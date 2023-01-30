@@ -5817,34 +5817,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\thanh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Learn\\Reactivities-Backend\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\thanh\\Desktop\\Learn\\Reactivities-Backend\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\Users\\User\\Desktop\\Learn\\Reactivities-Backend\\Persistence\\Persistence.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Learn\\Reactivities-Backend\\Persistence\\obj\\",
+      "projectPath": "C:\\Users\\thanh\\Desktop\\Learn\\Reactivities-Backend\\Persistence\\Persistence.csproj",
+      "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thanh\\Desktop\\Learn\\Reactivities-Backend\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Learn\\Reactivities-Backend\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Learn\\Reactivities-Backend\\Domain\\Domain.csproj"
+            "C:\\Users\\thanh\\Desktop\\Learn\\Reactivities-Backend\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\thanh\\Desktop\\Learn\\Reactivities-Backend\\Domain\\Domain.csproj"
             }
           }
         }
@@ -5902,7 +5900,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
